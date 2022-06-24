@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin:0;
+    outline:none;
+    border:none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.89);
+    text-align: center;
+}
+h2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.685);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#form{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"]{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    font: 1em sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+input[type="text"]:focus{
+    border: 1px solid rgb(255, 175, 4);
+}
+button{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    background: rgb(255, 175, 4);
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+button:hover{
+    width: 80%;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.2);
+    color: #fff;
+}
+table{
+    height: 400px;
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ccc;
+}
+thead{
+    padding-top:20px;
+    background-color: rgb(255, 175, 4);
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+tbody{
+    text-align: center;
+}
+td{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+tbody tr{
+    background-color: #fff;
+}
